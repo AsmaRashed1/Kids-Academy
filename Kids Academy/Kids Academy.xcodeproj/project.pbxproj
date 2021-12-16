@@ -15,15 +15,21 @@
 		5762A28C2760C3540027E655 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762A28B2760C3540027E655 /* FirstViewController.swift */; };
 		5762A28E2760CAB90027E655 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762A28D2760CAB90027E655 /* CollectionViewCell.swift */; };
 		5762A2902760D9A80027E655 /* struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762A28F2760D9A80027E655 /* struct.swift */; };
+		57689FB72768712600E5161C /* LettersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57689FB62768712600E5161C /* LettersViewController.swift */; };
+		57689FBB276876A500E5161C /* Number in Resources */ = {isa = PBXBuildFile; fileRef = 57689FBA276876A500E5161C /* Number */; };
+		57689FC027687FAD00E5161C /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57689FBF27687FAD00E5161C /* NumberViewController.swift */; };
+		57689FC327688DEA00E5161C /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57689FC227688DEA00E5161C /* SongViewController.swift */; };
+		576A4ED92767209B00096B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576A4ED82767209B00096B19 /* Assets.xcassets */; };
+		576A4EDD276736B200096B19 /* Sound Letters in Resources */ = {isa = PBXBuildFile; fileRef = 576A4EDC276736B200096B19 /* Sound Letters */; };
 		576BC9BA27624035001C8A1D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576BC9B927624035001C8A1D /* User.swift */; };
 		576BC9BC276240A2001C8A1D /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576BC9BB276240A2001C8A1D /* UserApi.swift */; };
-		576CF75027611E560078A999 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576CF74F27611E560078A999 /* SignUpViewController.swift */; };
 		578AB16A275E3EC900974E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AB169275E3EC900974E62 /* AppDelegate.swift */; };
 		578AB16C275E3EC900974E62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AB16B275E3EC900974E62 /* SceneDelegate.swift */; };
 		578AB16E275E3EC900974E62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AB16D275E3EC900974E62 /* ViewController.swift */; };
 		578AB171275E3EC900974E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578AB16F275E3EC900974E62 /* Main.storyboard */; };
-		578AB173275E3ECA00974E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578AB172275E3ECA00974E62 /* Assets.xcassets */; };
 		578AB176275E3ECA00974E62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578AB174275E3ECA00974E62 /* LaunchScreen.storyboard */; };
+		57A35587276B1F4600A2B3D0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A35586276B1F4600A2B3D0 /* SignUpViewController.swift */; };
+		57A35588276B382A00A2B3D0 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57689FC72768B2FF00E5161C /* music.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,17 +38,23 @@
 		5762A28B2760C3540027E655 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		5762A28D2760CAB90027E655 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		5762A28F2760D9A80027E655 /* struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = struct.swift; sourceTree = "<group>"; };
+		57689FB62768712600E5161C /* LettersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersViewController.swift; sourceTree = "<group>"; };
+		57689FBA276876A500E5161C /* Number */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Number; sourceTree = "<group>"; };
+		57689FBF27687FAD00E5161C /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
+		57689FC227688DEA00E5161C /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		57689FC72768B2FF00E5161C /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		576A4ED82767209B00096B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		576A4EDC276736B200096B19 /* Sound Letters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sound Letters"; sourceTree = "<group>"; };
 		576BC9B927624035001C8A1D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		576BC9BB276240A2001C8A1D /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
-		576CF74F27611E560078A999 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		578AB166275E3EC900974E62 /* Kids Academy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kids Academy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		578AB169275E3EC900974E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578AB16B275E3EC900974E62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		578AB16D275E3EC900974E62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		578AB170275E3EC900974E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		578AB172275E3ECA00974E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578AB175275E3ECA00974E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578AB177275E3ECA00974E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A35586276B1F4600A2B3D0 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57689FB52768707600E5161C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5762A28F2760D9A80027E655 /* struct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57689FBC276878DB00E5161C /* Regestretion */ = {
+			isa = PBXGroup;
+			children = (
+				5762A2892760C1060027E655 /* SignInViewController.swift */,
+				57A35586276B1F4600A2B3D0 /* SignUpViewController.swift */,
+				576BC9B927624035001C8A1D /* User.swift */,
+				576BC9BB276240A2001C8A1D /* UserApi.swift */,
+			);
+			path = Regestretion;
+			sourceTree = "<group>";
+		};
+		57689FBD276879B000E5161C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		57689FBE276879DD00E5161C /* Letters */ = {
+			isa = PBXGroup;
+			children = (
+				57689FB62768712600E5161C /* LettersViewController.swift */,
+				576A4EDC276736B200096B19 /* Sound Letters */,
+			);
+			path = Letters;
+			sourceTree = "<group>";
+		};
 		578AB15D275E3EC900974E62 = {
 			isa = PBXGroup;
 			children = (
@@ -82,17 +129,20 @@
 				578AB16B275E3EC900974E62 /* SceneDelegate.swift */,
 				578AB16D275E3EC900974E62 /* ViewController.swift */,
 				578AB16F275E3EC900974E62 /* Main.storyboard */,
-				578AB172275E3ECA00974E62 /* Assets.xcassets */,
+				576A4ED82767209B00096B19 /* Assets.xcassets */,
 				578AB174275E3ECA00974E62 /* LaunchScreen.storyboard */,
 				578AB177275E3ECA00974E62 /* Info.plist */,
 				5762A280275F6B2A0027E655 /* GoogleService-Info.plist */,
-				5762A2892760C1060027E655 /* SignInViewController.swift */,
-				576CF74F27611E560078A999 /* SignUpViewController.swift */,
+				57689FBC276878DB00E5161C /* Regestretion */,
 				5762A28B2760C3540027E655 /* FirstViewController.swift */,
 				5762A28D2760CAB90027E655 /* CollectionViewCell.swift */,
-				5762A28F2760D9A80027E655 /* struct.swift */,
-				576BC9B927624035001C8A1D /* User.swift */,
-				576BC9BB276240A2001C8A1D /* UserApi.swift */,
+				57689FBD276879B000E5161C /* New Group */,
+				57689FBE276879DD00E5161C /* Letters */,
+				57689FB52768707600E5161C /* Model */,
+				57689FBF27687FAD00E5161C /* NumberViewController.swift */,
+				57689FBA276876A500E5161C /* Number */,
+				57689FC227688DEA00E5161C /* SongViewController.swift */,
+				57689FC72768B2FF00E5161C /* music.m4a */,
 			);
 			path = "Kids Academy";
 			sourceTree = "<group>";
@@ -163,10 +213,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A35588276B382A00A2B3D0 /* music.m4a in Resources */,
 				578AB176275E3ECA00974E62 /* LaunchScreen.storyboard in Resources */,
+				57689FBB276876A500E5161C /* Number in Resources */,
 				5762A281275F6B2A0027E655 /* GoogleService-Info.plist in Resources */,
-				578AB173275E3ECA00974E62 /* Assets.xcassets in Resources */,
 				578AB171275E3EC900974E62 /* Main.storyboard in Resources */,
+				576A4EDD276736B200096B19 /* Sound Letters in Resources */,
+				576A4ED92767209B00096B19 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,11 +233,14 @@
 				5762A28C2760C3540027E655 /* FirstViewController.swift in Sources */,
 				576BC9BC276240A2001C8A1D /* UserApi.swift in Sources */,
 				578AB16E275E3EC900974E62 /* ViewController.swift in Sources */,
-				576CF75027611E560078A999 /* SignUpViewController.swift in Sources */,
 				5762A28E2760CAB90027E655 /* CollectionViewCell.swift in Sources */,
 				578AB16A275E3EC900974E62 /* AppDelegate.swift in Sources */,
+				57689FB72768712600E5161C /* LettersViewController.swift in Sources */,
 				576BC9BA27624035001C8A1D /* User.swift in Sources */,
+				57A35587276B1F4600A2B3D0 /* SignUpViewController.swift in Sources */,
 				5762A2902760D9A80027E655 /* struct.swift in Sources */,
+				57689FC327688DEA00E5161C /* SongViewController.swift in Sources */,
+				57689FC027687FAD00E5161C /* NumberViewController.swift in Sources */,
 				578AB16C275E3EC900974E62 /* SceneDelegate.swift in Sources */,
 				5762A28A2760C1060027E655 /* SignInViewController.swift in Sources */,
 			);
@@ -331,7 +387,6 @@
 		578AB17B275E3ECA00974E62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -358,7 +413,6 @@
 		578AB17C275E3ECA00974E62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
