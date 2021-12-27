@@ -1,4 +1,4 @@
-# Kids-Academy
+# KidsApp
 # Capstone 
 
 ### Project : 
