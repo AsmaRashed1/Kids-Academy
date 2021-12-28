@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FJe-Qe-V8y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SfL-o0-AuU">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -499,6 +499,7 @@
                     <navigationItem key="navigationItem" id="3ft-2F-TFw"/>
                     <connections>
                         <outlet property="des" destination="bPa-Cq-dcd" id="1pl-r6-XsF"/>
+                        <outlet property="imgeView" destination="xjf-la-crn" id="YYY-hJ-86P"/>
                         <outlet property="lableDone" destination="xGt-6X-fn7" id="ghk-qv-zJ7"/>
                     </connections>
                 </viewController>
@@ -1167,6 +1168,7 @@
                                 </segments>
                                 <connections>
                                     <action selector="Segmented:" destination="BYZ-38-t0r" eventType="valueChanged" id="Fnq-Ce-zs7"/>
+                                    <action selector="segmented:" destination="2Bj-vF-MJt" eventType="valueChanged" id="eCf-cQ-gEi"/>
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eru-yy-kiA">
@@ -1204,6 +1206,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="2Bj-vF-MJt" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-1626" y="142"/>
         </scene>
