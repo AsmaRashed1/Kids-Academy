@@ -67,8 +67,8 @@ class ProductApi {
             guard let documents = Snapshot?.documents else { return }
             for P in documents {
                 if let data = P.data() as [String : AnyObject]? {
-                    let New = ProductObject(Dictionary: data)
-                    completion(New)
+                    let new = ProductObject(Dictionary: data)
+                    completion(new)
                 }
             }
         }
