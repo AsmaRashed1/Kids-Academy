@@ -60,6 +60,7 @@
 		43D1D80D276AC9C800F9330A /* StartingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D1D80C276AC9C800F9330A /* StartingVC.swift */; };
 		43D1D80F276ACAF400F9330A /* aaaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D1D80E276ACAF400F9330A /* aaaa.swift */; };
 		576A4279277AE77B00F19993 /* segmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A4278277AE77B00F19993 /* segmentedViewController.swift */; };
+		5788880C277C5525001A2475 /* FirebaseStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5788880B277C5525001A2475 /* FirebaseStorageViewController.swift */; };
 		59FC011A568DAC87B156E797 /* Pods_KidsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA620E28474650179AC909C /* Pods_KidsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +122,7 @@
 		43D1D80C276AC9C800F9330A /* StartingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingVC.swift; sourceTree = "<group>"; };
 		43D1D80E276ACAF400F9330A /* aaaa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaa.swift; sourceTree = "<group>"; };
 		576A4278277AE77B00F19993 /* segmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segmentedViewController.swift; sourceTree = "<group>"; };
+		5788880B277C5525001A2475 /* FirebaseStorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageViewController.swift; sourceTree = "<group>"; };
 		984AECE053A1BFBFFD57D104 /* Pods-KidsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsApp.release.xcconfig"; path = "Target Support Files/Pods-KidsApp/Pods-KidsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -217,6 +219,7 @@
 		43D1D7E5276AB3DD00F9330A = {
 			isa = PBXGroup;
 			children = (
+				5788880B277C5525001A2475 /* FirebaseStorageViewController.swift */,
 				43D1D7F0276AB3DD00F9330A /* KidsApp */,
 				43D1D7EF276AB3DD00F9330A /* Products */,
 				22504C2CDA13E2E8E886E991 /* Pods */,
@@ -436,6 +439,7 @@
 				43D1D80D276AC9C800F9330A /* StartingVC.swift in Sources */,
 				43D1D7F4276AB3DD00F9330A /* SceneDelegate.swift in Sources */,
 				43D1D807276ABCEB00F9330A /* SignIn.swift in Sources */,
+				5788880C277C5525001A2475 /* FirebaseStorageViewController.swift in Sources */,
 				43D1D80B276AC6D400F9330A /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

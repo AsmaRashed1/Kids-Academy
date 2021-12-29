@@ -24,7 +24,7 @@ class AddNewProductVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        BSVC.maxNumberOfSelections = 1
+//        BSVC.maxNumberOfSelections = 1
     }
     
     @IBAction func uploadImage(_ sender: UIButton) {

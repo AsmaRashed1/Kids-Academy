@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SfL-o0-AuU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ti9-L7-xRz">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -448,7 +448,7 @@
                                     <action selector="uploadImage:" destination="SfL-o0-AuU" eventType="touchUpInside" id="3r3-Bl-Vwg"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xjf-la-crn">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xjf-la-crn">
                                 <rect key="frame" x="40" y="218" width="310" height="207"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="207" id="fU2-G8-fzd"/>
@@ -499,7 +499,7 @@
                     <navigationItem key="navigationItem" id="3ft-2F-TFw"/>
                     <connections>
                         <outlet property="des" destination="bPa-Cq-dcd" id="1pl-r6-XsF"/>
-                        <outlet property="imgeView" destination="xjf-la-crn" id="YYY-hJ-86P"/>
+                        <outlet property="imageView" destination="xjf-la-crn" id="Hpb-mP-QBL"/>
                         <outlet property="lableDone" destination="xGt-6X-fn7" id="ghk-qv-zJ7"/>
                     </connections>
                 </viewController>
@@ -986,6 +986,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QA7-Aq-48Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5230" y="-590"/>
+        </scene>
+        <!--Firetorage View Controller-->
+        <scene sceneID="Br0-Mz-z8I">
+            <objects>
+                <viewController id="ti9-L7-xRz" customClass="FiretorageViewController" customModule="KidsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v0g-IH-d6U">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fpf-VY-yEp">
+                                <rect key="frame" x="59" y="686" width="265" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="upload Image"/>
+                                <connections>
+                                    <action selector="uploadImageTapped:" destination="ti9-L7-xRz" eventType="touchUpInside" id="gGp-Nh-yQg"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gjn-eY-65a">
+                                <rect key="frame" x="16" y="140" width="358" height="276"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="276" id="Or0-yh-wxv"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v84-AM-pFx">
+                                <rect key="frame" x="59" y="466" width="265" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="pull image"/>
+                                <connections>
+                                    <action selector="pullImageTapped:" destination="ti9-L7-xRz" eventType="touchUpInside" id="fEg-Ec-mBh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UtL-Sj-V8E"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fpf-VY-yEp" firstAttribute="top" secondItem="UtL-Sj-V8E" secondAttribute="top" constant="642" id="KtN-Gs-f6F"/>
+                            <constraint firstItem="Fpf-VY-yEp" firstAttribute="leading" secondItem="UtL-Sj-V8E" secondAttribute="leading" constant="59" id="MJI-WM-Nwb"/>
+                            <constraint firstItem="gjn-eY-65a" firstAttribute="top" secondItem="UtL-Sj-V8E" secondAttribute="top" constant="96" id="V62-zj-4jH"/>
+                            <constraint firstItem="gjn-eY-65a" firstAttribute="leading" secondItem="UtL-Sj-V8E" secondAttribute="leading" constant="16" id="VeE-QK-SQc"/>
+                            <constraint firstItem="v84-AM-pFx" firstAttribute="leading" secondItem="UtL-Sj-V8E" secondAttribute="leading" constant="59" id="dSq-zl-CMx"/>
+                            <constraint firstItem="v84-AM-pFx" firstAttribute="top" secondItem="gjn-eY-65a" secondAttribute="bottom" constant="50" id="fQo-sL-IP4"/>
+                            <constraint firstItem="UtL-Sj-V8E" firstAttribute="trailing" secondItem="gjn-eY-65a" secondAttribute="trailing" constant="16" id="ikj-tE-hy7"/>
+                            <constraint firstItem="UtL-Sj-V8E" firstAttribute="trailing" secondItem="v84-AM-pFx" secondAttribute="trailing" constant="66" id="mTe-WX-MX8"/>
+                            <constraint firstItem="UtL-Sj-V8E" firstAttribute="trailing" secondItem="Fpf-VY-yEp" secondAttribute="trailing" constant="66" id="o7j-yU-Hgr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageDownloaded" destination="gjn-eY-65a" id="Xgf-Gc-vYU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z3w-mc-pyD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6281.538461538461" y="280.80568720379148"/>
         </scene>
         <!--Number-->
         <scene sceneID="e01-14-piD">
