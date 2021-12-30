@@ -13,19 +13,20 @@ class ProductObject {
     var ID : String?
     var Stamp : TimeInterval?
     var Des : String?
+    var imageURL : String?
     
-    
-    init(ID : String, Stamp : TimeInterval, Des : String) {
+    init(ID : String, Stamp : TimeInterval, Des : String , imageURL :String ){
         self.ID = ID
         self.Stamp = Stamp
         self.Des = Des
+        self.imageURL = imageURL
     }
     
     init(Dictionary : [String : AnyObject]) {
         self.ID = Dictionary["ID"] as? String
         self.Stamp = Dictionary["Stamp"] as? TimeInterval
         self.Des = Dictionary["Des"] as? String
-        
+        self.imageURL = Dictionary["imageURL"] as? String
     }
     
     func MakeDictionary()->[String : AnyObject] {
@@ -33,6 +34,7 @@ class ProductObject {
         new["ID"] = self.ID as AnyObject
         new["Stamp"] = self.Stamp as AnyObject
         new["Des"] = self.Des as AnyObject
+        new["imageURL"] = self.imageURL as AnyObject
         return new
     }
     

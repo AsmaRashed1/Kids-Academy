@@ -60,7 +60,8 @@
 		43D1D80D276AC9C800F9330A /* StartingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D1D80C276AC9C800F9330A /* StartingVC.swift */; };
 		43D1D80F276ACAF400F9330A /* aaaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D1D80E276ACAF400F9330A /* aaaa.swift */; };
 		576A4279277AE77B00F19993 /* segmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A4278277AE77B00F19993 /* segmentedViewController.swift */; };
-		5788880C277C5525001A2475 /* FirebaseStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5788880B277C5525001A2475 /* FirebaseStorageViewController.swift */; };
+		57F21284277DC4CD00CFAB65 /* drawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F21283277DC4CD00CFAB65 /* drawViewController.swift */; };
+		57F21286277DD58D00CFAB65 /* canva.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F21285277DD58D00CFAB65 /* canva.swift */; };
 		59FC011A568DAC87B156E797 /* Pods_KidsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA620E28474650179AC909C /* Pods_KidsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -122,7 +123,8 @@
 		43D1D80C276AC9C800F9330A /* StartingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingVC.swift; sourceTree = "<group>"; };
 		43D1D80E276ACAF400F9330A /* aaaa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaa.swift; sourceTree = "<group>"; };
 		576A4278277AE77B00F19993 /* segmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segmentedViewController.swift; sourceTree = "<group>"; };
-		5788880B277C5525001A2475 /* FirebaseStorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageViewController.swift; sourceTree = "<group>"; };
+		57F21283277DC4CD00CFAB65 /* drawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawViewController.swift; sourceTree = "<group>"; };
+		57F21285277DD58D00CFAB65 /* canva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canva.swift; sourceTree = "<group>"; };
 		984AECE053A1BFBFFD57D104 /* Pods-KidsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsApp.release.xcconfig"; path = "Target Support Files/Pods-KidsApp/Pods-KidsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,13 +200,6 @@
 			path = Numbers;
 			sourceTree = "<group>";
 		};
-		4349520F276FEB9D0056CD3B /* Drawing */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Drawing;
-			sourceTree = "<group>";
-		};
 		4356FA93276B776D0027C5EA /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,7 +214,6 @@
 		43D1D7E5276AB3DD00F9330A = {
 			isa = PBXGroup;
 			children = (
-				5788880B277C5525001A2475 /* FirebaseStorageViewController.swift */,
 				43D1D7F0276AB3DD00F9330A /* KidsApp */,
 				43D1D7EF276AB3DD00F9330A /* Products */,
 				22504C2CDA13E2E8E886E991 /* Pods */,
@@ -245,10 +239,11 @@
 				43D1D80E276ACAF400F9330A /* aaaa.swift */,
 				4310EC3227723C9700F0C95C /* Numbers */,
 				4310EBFB277233D700F0C95C /* Letters */,
-				4349520F276FEB9D0056CD3B /* Drawing */,
 				4356FA93276B776D0027C5EA /* CollectionView */,
 				43D1D805276ABCD200F9330A /* Auth */,
 				43D1D7F7276AB3DD00F9330A /* Main.storyboard */,
+				57F21283277DC4CD00CFAB65 /* drawViewController.swift */,
+				57F21285277DD58D00CFAB65 /* canva.swift */,
 				43D1D7FA276AB3E600F9330A /* Assets.xcassets */,
 				43D1D7FC276AB3E600F9330A /* LaunchScreen.storyboard */,
 				43D1D7FF276AB3E600F9330A /* Info.plist */,
@@ -431,6 +426,7 @@
 				4356FA95276B778F0027C5EA /* CollectionNames.swift in Sources */,
 				4356FA9B276B7B060027C5EA /* AddNewProductVC.swift in Sources */,
 				43D1D80F276ACAF400F9330A /* aaaa.swift in Sources */,
+				57F21284277DC4CD00CFAB65 /* drawViewController.swift in Sources */,
 				43D1D7F6276AB3DD00F9330A /* ViewController.swift in Sources */,
 				43D1D7F2276AB3DD00F9330A /* AppDelegate.swift in Sources */,
 				4310EBFA277233D200F0C95C /* Letters.swift in Sources */,
@@ -439,8 +435,8 @@
 				43D1D80D276AC9C800F9330A /* StartingVC.swift in Sources */,
 				43D1D7F4276AB3DD00F9330A /* SceneDelegate.swift in Sources */,
 				43D1D807276ABCEB00F9330A /* SignIn.swift in Sources */,
-				5788880C277C5525001A2475 /* FirebaseStorageViewController.swift in Sources */,
 				43D1D80B276AC6D400F9330A /* SignUp.swift in Sources */,
+				57F21286277DD58D00CFAB65 /* canva.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
