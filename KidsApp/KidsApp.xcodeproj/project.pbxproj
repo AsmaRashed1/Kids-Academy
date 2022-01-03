@@ -64,6 +64,10 @@
 		43D1D80B276AC6D400F9330A /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D1D80A276AC6D400F9330A /* SignUp.swift */; };
 		43D1D80D276AC9C800F9330A /* StartingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D1D80C276AC9C800F9330A /* StartingVC.swift */; };
 		43D1D80F276ACAF400F9330A /* aaaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D1D80E276ACAF400F9330A /* aaaa.swift */; };
+		57FB55512782D3D400F04EB0 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FB55502782D3D400F04EB0 /* QuizViewController.swift */; };
+		57FB55532782D44400F04EB0 /* GameSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57FB55522782D44400F04EB0 /* GameSound.wav */; };
+		57FB55572782D59100F04EB0 /* ScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FB55562782D59100F04EB0 /* ScoreModel.swift */; };
+		57FB55592782D7AB00F04EB0 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FB55582782D7AB00F04EB0 /* QuestionModel.swift */; };
 		59FC011A568DAC87B156E797 /* Pods_KidsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA620E28474650179AC909C /* Pods_KidsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +133,10 @@
 		43D1D80A276AC6D400F9330A /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		43D1D80C276AC9C800F9330A /* StartingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingVC.swift; sourceTree = "<group>"; };
 		43D1D80E276ACAF400F9330A /* aaaa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaa.swift; sourceTree = "<group>"; };
+		57FB55502782D3D400F04EB0 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		57FB55522782D44400F04EB0 /* GameSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameSound.wav; sourceTree = "<group>"; };
+		57FB55562782D59100F04EB0 /* ScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreModel.swift; sourceTree = "<group>"; };
+		57FB55582782D7AB00F04EB0 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		984AECE053A1BFBFFD57D104 /* Pods-KidsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsApp.release.xcconfig"; path = "Target Support Files/Pods-KidsApp/Pods-KidsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -243,6 +251,10 @@
 		43D1D7E5276AB3DD00F9330A = {
 			isa = PBXGroup;
 			children = (
+				57FB55582782D7AB00F04EB0 /* QuestionModel.swift */,
+				57FB55562782D59100F04EB0 /* ScoreModel.swift */,
+				57FB55502782D3D400F04EB0 /* QuizViewController.swift */,
+				57FB55522782D44400F04EB0 /* GameSound.wav */,
 				43D1D7F0276AB3DD00F9330A /* KidsApp */,
 				43D1D7EF276AB3DD00F9330A /* Products */,
 				22504C2CDA13E2E8E886E991 /* Pods */,
@@ -364,6 +376,7 @@
 				4310EC27277233F200F0C95C /* A.wav in Resources */,
 				4310EC26277233F200F0C95C /* O.wav in Resources */,
 				4310EC2A277233F200F0C95C /* X.wav in Resources */,
+				57FB55532782D44400F04EB0 /* GameSound.wav in Resources */,
 				4310EC2F277233F200F0C95C /* Z.wav in Resources */,
 				4310EC20277233F200F0C95C /* Y.wav in Resources */,
 				4310EC2E277233F200F0C95C /* M.wav in Resources */,
@@ -451,14 +464,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FB55592782D7AB00F04EB0 /* QuestionModel.swift in Sources */,
 				43C65FDE2774EC3600C4C23D /* AnimlsCell.swift in Sources */,
 				4356FA99276B795C0027C5EA /* CollectionViewCell.swift in Sources */,
 				4356FA95276B778F0027C5EA /* CollectionNames.swift in Sources */,
+				57FB55572782D59100F04EB0 /* ScoreModel.swift in Sources */,
 				4356FA9B276B7B060027C5EA /* AddNewProductVC.swift in Sources */,
 				43D1D80F276ACAF400F9330A /* aaaa.swift in Sources */,
 				43D1D7F6276AB3DD00F9330A /* ViewController.swift in Sources */,
 				43D1D7F2276AB3DD00F9330A /* AppDelegate.swift in Sources */,
 				4310EBFA277233D200F0C95C /* Letters.swift in Sources */,
+				57FB55512782D3D400F04EB0 /* QuizViewController.swift in Sources */,
 				43C65FE12774EE9E00C4C23D /* Quiz.swift in Sources */,
 				4356FA97276B79160027C5EA /* ProductObject.swift in Sources */,
 				4310EC3127723C1F00F0C95C /* Number.swift in Sources */,
