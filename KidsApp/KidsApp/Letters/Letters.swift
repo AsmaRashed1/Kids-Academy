@@ -24,6 +24,7 @@ class Letters: UIViewController {
     
     @IBAction func LetterPrees(_ sender: UIButton) {
         play(note: Letter.firstIndex(of: sender)! + 1 )
+        
     }
     
     func play(note: Int) {

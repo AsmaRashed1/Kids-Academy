@@ -13,6 +13,7 @@ class CollectionNames: UIViewController, UICollectionViewDelegate, UICollectionV
     
     var Des : [ProductObject] = []
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,6 +28,7 @@ class CollectionNames: UIViewController, UICollectionViewDelegate, UICollectionV
         ProductApi.GetAllProducts { (product : ProductObject) in
             self.Des.append(product)
             self.CollectionView.reloadData()
+            
         }
         
     }
