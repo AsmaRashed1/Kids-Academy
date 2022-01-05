@@ -30,8 +30,8 @@ class StartingVC: UIViewController {
     
     @IBAction func close(_ sender: Any) {
         let exitAppAlert = UIAlertController(title: "Important Message",
-                                             message: "The application needs to be closed and then opened again in order to retrieve the data",
-                                             preferredStyle: .alert)
+        message: "The application needs to be closed and then opened again in order to retrieve the data",
+         preferredStyle: .alert)
         let resetApp = UIAlertAction(title: "Close", style: .destructive) {
             (alert) -> Void in
             // home button pressed programmatically - to thorw app to background

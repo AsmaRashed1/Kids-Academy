@@ -7,7 +7,7 @@ target 'KidsApp' do
 
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
-pod 'NVActivityIndicatorView'
+
 
 
 end
