@@ -45,6 +45,10 @@
 		4310EC4327723CB000F0C95C /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4310EC3A27723CAF00F0C95C /* 4.wav */; };
 		4310EC4427723CB000F0C95C /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4310EC3B27723CB000F0C95C /* 8.wav */; };
 		43495211276FEBBB0056CD3B /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43495210276FEBBB0056CD3B /* Drawing.swift */; };
+		434C93CB2782652800284752 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C93CA2782652800284752 /* TableViewCell.swift */; };
+		434C93CD2782654200284752 /* ViewControllerVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C93CC2782654200284752 /* ViewControllerVideo.swift */; };
+		434C93CF2782655100284752 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C93CE2782655100284752 /* Videos.swift */; };
+		434C93D62783C0B200284752 /* XAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C93D52783C0B200284752 /* XAdmin.swift */; };
 		4356FA95276B778F0027C5EA /* CollectionNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4356FA94276B778F0027C5EA /* CollectionNames.swift */; };
 		4356FA97276B79160027C5EA /* ProductObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4356FA96276B79160027C5EA /* ProductObject.swift */; };
 		4356FA99276B795C0027C5EA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4356FA98276B795C0027C5EA /* CollectionViewCell.swift */; };
@@ -63,13 +67,11 @@
 		43D1D807276ABCEB00F9330A /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D1D806276ABCEB00F9330A /* SignIn.swift */; };
 		43D1D80B276AC6D400F9330A /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D1D80A276AC6D400F9330A /* SignUp.swift */; };
 		43D1D80D276AC9C800F9330A /* StartingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D1D80C276AC9C800F9330A /* StartingVC.swift */; };
-		43D1D80F276ACAF400F9330A /* aaaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D1D80E276ACAF400F9330A /* aaaa.swift */; };
-		57A6C4FF2785C3A60016C192 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6C4FE2785C3A60016C192 /* AnimationViewController.swift */; };
-		57A6C5022785C5570016C192 /* ShimmerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 57A6C5012785C5570016C192 /* ShimmerSwift */; };
-		57FB55512782D3D400F04EB0 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FB55502782D3D400F04EB0 /* QuizViewController.swift */; };
-		57FB55532782D44400F04EB0 /* GameSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57FB55522782D44400F04EB0 /* GameSound.wav */; };
-		57FB55572782D59100F04EB0 /* ScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FB55562782D59100F04EB0 /* ScoreModel.swift */; };
-		57FB55592782D7AB00F04EB0 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FB55582782D7AB00F04EB0 /* QuestionModel.swift */; };
+		57804A54278AF80200BCCD9B /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57804A53278AF80200BCCD9B /* OnBoardingViewController.swift */; };
+		57804A56278AFAF400BCCD9B /* UiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57804A55278AFAF400BCCD9B /* UiView.swift */; };
+		57804A59278AFC7D00BCCD9B /* OnboardSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57804A58278AFC7D00BCCD9B /* OnboardSlide.swift */; };
+		57804A5C278B048C00BCCD9B /* OnBordingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57804A5B278B048C00BCCD9B /* OnBordingCollectionViewCell.swift */; };
+		57804A5E278B483F00BCCD9B /* UserDefult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57804A5D278B483F00BCCD9B /* UserDefult.swift */; };
 		59FC011A568DAC87B156E797 /* Pods_KidsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA620E28474650179AC909C /* Pods_KidsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +116,12 @@
 		4310EC3A27723CAF00F0C95C /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
 		4310EC3B27723CB000F0C95C /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8.wav; sourceTree = "<group>"; };
 		43495210276FEBBB0056CD3B /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		434C93CA2782652800284752 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		434C93CC2782654200284752 /* ViewControllerVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVideo.swift; sourceTree = "<group>"; };
+		434C93CE2782655100284752 /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		434C93D227826F1A00284752 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		434C93D327826F1A00284752 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		434C93D52783C0B200284752 /* XAdmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAdmin.swift; sourceTree = "<group>"; };
 		4356FA94276B778F0027C5EA /* CollectionNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionNames.swift; sourceTree = "<group>"; };
 		4356FA96276B79160027C5EA /* ProductObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductObject.swift; sourceTree = "<group>"; };
 		4356FA98276B795C0027C5EA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -134,12 +142,11 @@
 		43D1D806276ABCEB00F9330A /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		43D1D80A276AC6D400F9330A /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		43D1D80C276AC9C800F9330A /* StartingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingVC.swift; sourceTree = "<group>"; };
-		43D1D80E276ACAF400F9330A /* aaaa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaa.swift; sourceTree = "<group>"; };
-		57A6C4FE2785C3A60016C192 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
-		57FB55502782D3D400F04EB0 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
-		57FB55522782D44400F04EB0 /* GameSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameSound.wav; sourceTree = "<group>"; };
-		57FB55562782D59100F04EB0 /* ScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreModel.swift; sourceTree = "<group>"; };
-		57FB55582782D7AB00F04EB0 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		57804A53278AF80200BCCD9B /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		57804A55278AFAF400BCCD9B /* UiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiView.swift; sourceTree = "<group>"; };
+		57804A58278AFC7D00BCCD9B /* OnboardSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardSlide.swift; sourceTree = "<group>"; };
+		57804A5B278B048C00BCCD9B /* OnBordingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBordingCollectionViewCell.swift; sourceTree = "<group>"; };
+		57804A5D278B483F00BCCD9B /* UserDefult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefult.swift; sourceTree = "<group>"; };
 		984AECE053A1BFBFFD57D104 /* Pods-KidsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsApp.release.xcconfig"; path = "Target Support Files/Pods-KidsApp/Pods-KidsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,7 +155,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57A6C5022785C5570016C192 /* ShimmerSwift in Frameworks */,
 				59FC011A568DAC87B156E797 /* Pods_KidsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +230,25 @@
 			path = Drawing;
 			sourceTree = "<group>";
 		};
+		434C93C92782651400284752 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				434C93CC2782654200284752 /* ViewControllerVideo.swift */,
+				434C93CA2782652800284752 /* TableViewCell.swift */,
+				434C93CE2782655100284752 /* Videos.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		434C93D42783C09900284752 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				43D1D80C276AC9C800F9330A /* StartingVC.swift */,
+				434C93D52783C0B200284752 /* XAdmin.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		4356FA93276B776D0027C5EA /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,11 +280,8 @@
 		43D1D7E5276AB3DD00F9330A = {
 			isa = PBXGroup;
 			children = (
-				57A6C4FE2785C3A60016C192 /* AnimationViewController.swift */,
-				57FB55582782D7AB00F04EB0 /* QuestionModel.swift */,
-				57FB55562782D59100F04EB0 /* ScoreModel.swift */,
-				57FB55502782D3D400F04EB0 /* QuizViewController.swift */,
-				57FB55522782D44400F04EB0 /* GameSound.wav */,
+				57804A5A278B042E00BCCD9B /* OnBoarding */,
+				57804A57278AFC5300BCCD9B /* Model */,
 				43D1D7F0276AB3DD00F9330A /* KidsApp */,
 				43D1D7EF276AB3DD00F9330A /* Products */,
 				22504C2CDA13E2E8E886E991 /* Pods */,
@@ -282,8 +304,8 @@
 				43D1D7F3276AB3DD00F9330A /* SceneDelegate.swift */,
 				43D1D7F5276AB3DD00F9330A /* ViewController.swift */,
 				43C65FD62774E74000C4C23D /* HomePage.swift */,
-				43D1D80C276AC9C800F9330A /* StartingVC.swift */,
-				43D1D80E276ACAF400F9330A /* aaaa.swift */,
+				434C93D42783C09900284752 /* Settings */,
+				434C93C92782651400284752 /* Videos */,
 				43C65FDF2774EE7C00C4C23D /* Quiz */,
 				43C65FDA2774EC0600C4C23D /* Animls */,
 				4310EC3227723C9700F0C95C /* Numbers */,
@@ -307,6 +329,25 @@
 				43D1D80A276AC6D400F9330A /* SignUp.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		57804A57278AFC5300BCCD9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57804A55278AFAF400BCCD9B /* UiView.swift */,
+				57804A58278AFC7D00BCCD9B /* OnboardSlide.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57804A5A278B042E00BCCD9B /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				57804A53278AF80200BCCD9B /* OnBoardingViewController.swift */,
+				57804A5B278B048C00BCCD9B /* OnBordingCollectionViewCell.swift */,
+				57804A5D278B483F00BCCD9B /* UserDefult.swift */,
+			);
+			path = OnBoarding;
 			sourceTree = "<group>";
 		};
 		FA8E4C1FA3781C712B3FEE2B /* Frameworks */ = {
@@ -335,9 +376,6 @@
 			dependencies = (
 			);
 			name = KidsApp;
-			packageProductDependencies = (
-				57A6C5012785C5570016C192 /* ShimmerSwift */,
-			);
 			productName = KidsApp;
 			productReference = 43D1D7EE276AB3DD00F9330A /* KidsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -364,11 +402,9 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 43D1D7E5276AB3DD00F9330A;
-			packageReferences = (
-				57A6C5002785C5570016C192 /* XCRemoteSwiftPackageReference "ShimmerSwift" */,
-			);
 			productRefGroup = 43D1D7EF276AB3DD00F9330A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -387,7 +423,6 @@
 				4310EC27277233F200F0C95C /* A.wav in Resources */,
 				4310EC26277233F200F0C95C /* O.wav in Resources */,
 				4310EC2A277233F200F0C95C /* X.wav in Resources */,
-				57FB55532782D44400F04EB0 /* GameSound.wav in Resources */,
 				4310EC2F277233F200F0C95C /* Z.wav in Resources */,
 				4310EC20277233F200F0C95C /* Y.wav in Resources */,
 				4310EC2E277233F200F0C95C /* M.wav in Resources */,
@@ -475,20 +510,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57FB55592782D7AB00F04EB0 /* QuestionModel.swift in Sources */,
 				43C65FDE2774EC3600C4C23D /* AnimlsCell.swift in Sources */,
+				57804A59278AFC7D00BCCD9B /* OnboardSlide.swift in Sources */,
 				4356FA99276B795C0027C5EA /* CollectionViewCell.swift in Sources */,
+				434C93CD2782654200284752 /* ViewControllerVideo.swift in Sources */,
+				434C93CF2782655100284752 /* Videos.swift in Sources */,
+				57804A54278AF80200BCCD9B /* OnBoardingViewController.swift in Sources */,
+				57804A5E278B483F00BCCD9B /* UserDefult.swift in Sources */,
 				4356FA95276B778F0027C5EA /* CollectionNames.swift in Sources */,
-				57FB55572782D59100F04EB0 /* ScoreModel.swift in Sources */,
 				4356FA9B276B7B060027C5EA /* AddNewProductVC.swift in Sources */,
-				43D1D80F276ACAF400F9330A /* aaaa.swift in Sources */,
+				434C93CB2782652800284752 /* TableViewCell.swift in Sources */,
 				43D1D7F6276AB3DD00F9330A /* ViewController.swift in Sources */,
 				43D1D7F2276AB3DD00F9330A /* AppDelegate.swift in Sources */,
 				4310EBFA277233D200F0C95C /* Letters.swift in Sources */,
-				57FB55512782D3D400F04EB0 /* QuizViewController.swift in Sources */,
 				43C65FE12774EE9E00C4C23D /* Quiz.swift in Sources */,
 				4356FA97276B79160027C5EA /* ProductObject.swift in Sources */,
-				57A6C4FF2785C3A60016C192 /* AnimationViewController.swift in Sources */,
+				57804A56278AFAF400BCCD9B /* UiView.swift in Sources */,
 				4310EC3127723C1F00F0C95C /* Number.swift in Sources */,
 				43D1D80D276AC9C800F9330A /* StartingVC.swift in Sources */,
 				43C65FD72774E74000C4C23D /* HomePage.swift in Sources */,
@@ -496,6 +533,8 @@
 				43495211276FEBBB0056CD3B /* Drawing.swift in Sources */,
 				43D1D7F4276AB3DD00F9330A /* SceneDelegate.swift in Sources */,
 				43D1D807276ABCEB00F9330A /* SignIn.swift in Sources */,
+				57804A5C278B048C00BCCD9B /* OnBordingCollectionViewCell.swift in Sources */,
+				434C93D62783C0B200284752 /* XAdmin.swift in Sources */,
 				43D1D80B276AC6D400F9330A /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +546,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				43D1D7F8276AB3DD00F9330A /* Base */,
+				434C93D227826F1A00284752 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -515,6 +555,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				43D1D7FD276AB3E600F9330A /* Base */,
+				434C93D327826F1A00284752 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -526,6 +567,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -587,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -718,25 +761,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		57A6C5002785C5570016C192 /* XCRemoteSwiftPackageReference "ShimmerSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/BeauNouvelle/ShimmerSwift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		57A6C5012785C5570016C192 /* ShimmerSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 57A6C5002785C5570016C192 /* XCRemoteSwiftPackageReference "ShimmerSwift" */;
-			productName = ShimmerSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 43D1D7E6276AB3DD00F9330A /* Project object */;
 }

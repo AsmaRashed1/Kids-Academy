@@ -21,8 +21,9 @@ class ViewController: UIViewController {
             page1.alpha = 1
             page2.alpha = 0
         }
+        
+        
     }
+    
 }
-
-
 

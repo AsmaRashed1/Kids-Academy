@@ -2,12 +2,13 @@
 //  AddNewProductVC.swift
 //  KidsApp
 //
-//  Created by Asma Rasheed on 26/12/2021.
+//  Created by Asma Rasheed on 16/12/2021.
 //
 
 import UIKit
 import Firebase
 import FirebaseFirestore
+
 class AddNewProductVC: UIViewController {
 
     @IBOutlet weak var Des: UITextField!

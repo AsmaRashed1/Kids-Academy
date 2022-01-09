@@ -6,9 +6,6 @@
 //
 
 import UIKit
-
-
-
 struct Question{
     var Question : String!
     var Ansers : [String]!
@@ -22,7 +19,6 @@ class Quiz: UIViewController {
     
     @IBOutlet var Button: [UIButton]!
     
-
     
     
     var Questions = [Question]()
@@ -32,18 +28,16 @@ class Quiz: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-       
-        
-        Questions = [Question(Question: "2 + 7 =", Ansers: ["10","9","8","7"], Anser: 1),
-                     Question(Question: "4 + 3 =", Ansers: ["7","6","9","8"], Anser: 0),
-                     Question(Question: "7 + 8 =", Ansers: ["10","11","15","3"], Anser: 2),
-                     Question(Question: "10 + 1 =", Ansers: ["10","11","15","13"], Anser: 1),
-                     Question(Question: "3 + 3 =", Ansers: ["6","5","2","9"], Anser: 0)]
+        Questions = [Question(Question: "2 + 7", Ansers: ["10","9","8","7"], Anser: 1),
+                     Question(Question: "4 + 3", Ansers: ["7","6","9","8"], Anser: 0),
+                     Question(Question: "7 + 8", Ansers: ["10","11","15","3"], Anser: 2),
+                     Question(Question: "10 + 1", Ansers: ["10","11","15","13"], Anser: 1),
+                     Question(Question: "The Quiz is Done", Ansers: ["Done","Done","Done","Done"], Anser: 4)]
 
         redomeQuestion()
     }
     
+
     
     
     func redomeQuestion(){

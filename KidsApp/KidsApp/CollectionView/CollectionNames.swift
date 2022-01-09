@@ -2,7 +2,7 @@
 //  CollectionNames.swift
 //  KidsApp
 //
-//  Created by Asma Rasheed on 26/12/2021.
+//  Created by Asma Rasheed on 16/12/2021.
 //
 
 import UIKit
@@ -12,7 +12,6 @@ class CollectionNames: UIViewController, UICollectionViewDelegate, UICollectionV
     @IBOutlet weak var CollectionView: UICollectionView!
     
     var Des : [ProductObject] = []
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +27,6 @@ class CollectionNames: UIViewController, UICollectionViewDelegate, UICollectionV
         ProductApi.GetAllProducts { (product : ProductObject) in
             self.Des.append(product)
             self.CollectionView.reloadData()
-            
         }
         
     }

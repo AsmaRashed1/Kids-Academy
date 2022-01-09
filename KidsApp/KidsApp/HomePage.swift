@@ -2,7 +2,7 @@
 //  HomePage.swift
 //  KidsApp
 //
-//  Created by Asma Rasheed on 26/12/2021.
+//  Created by Asma Rasheed on 23/12/2021.
 //
 
 import UIKit
@@ -15,11 +15,33 @@ class HomePage: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func singOut(_ sender: Any) {
-        try? Auth.auth().signOut()
-        dismiss(animated: true, completion: nil)
+  
+    
+    
+    
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+        Auth.auth().addStateDidChangeListener { (auth, user) in
+            
+            if user == nil {
+                self.performSegue(withIdentifier: "Auth", sender: nil)
+                // no user
+            } else {
+                print("Eroor")
+            }
+            
+        }
+        
     }
     
-  
+    
+    
+    
+    
+    
+    
 
 }
