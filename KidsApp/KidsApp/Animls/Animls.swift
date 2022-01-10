@@ -12,9 +12,9 @@ class Animls: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
     @IBOutlet weak var AinmlsCollection: UICollectionView!
     
     
-    var img = [UIImage(named: "A1"),UIImage(named: "A2"),UIImage(named: "A3"),UIImage(named: "A4"),UIImage(named: "A5"),UIImage(named: "A6")]
+    var img = [UIImage(named: "Dog"),UIImage(named: "Cow"),UIImage(named: "xantus"),UIImage(named: "toucan"),UIImage(named: "kangaroo")]
     
-    var name = ["Eagle","Dog","Rabbit","Horse","Cat","Deer"]
+    var name = ["Dog","Cow","Xantus","toucan","kangaroo"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

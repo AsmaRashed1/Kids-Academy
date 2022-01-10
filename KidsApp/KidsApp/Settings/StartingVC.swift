@@ -34,7 +34,22 @@ class StartingVC: UIViewController {
 //    }
 //
     
-    @IBAction func darckMode(_ sender: Any) {
+    @IBAction func darckMode(_ sender: UISwitch) {
+        
+        if #available (iOS 13.0, *) {
+          
+            let appDelegate = UIApplication.shared.windows.first
+            
+            if sender.isOn {
+                appDelegate?.overrideUserInterfaceStyle = .dark
+                return
+            }
+            appDelegate?.overrideUserInterfaceStyle = .light
+            return
+        }
+        else {
+            // put another code .
+        }
     }
     
     @IBAction func SignOut(_ sender: Any) {
