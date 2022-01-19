@@ -22,3 +22,5 @@ It is an application that helps children learn the alphabet and numbers in a fun
 - The user plays educational videos to help him in the learning process
 In addition to the test section for the calculation process.
 
+
+![Academy](https://user-images.githubusercontent.com/91872287/150081282-857fd7a5-ebd4-45ba-a0c9-7274e033a11a.png)
